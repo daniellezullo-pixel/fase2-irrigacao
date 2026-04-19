@@ -1,2 +1,3 @@
 # fase2-irrigacao
-Projeto de irrigação automática com ESP32, baseado na leitura de umidade e sensores simulados.
+Vídeo do projeto:
+https://youtu.be/V_RsebS23Uk 
