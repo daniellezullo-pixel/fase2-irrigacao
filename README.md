@@ -33,6 +33,8 @@ O sistema realiza a leitura da umidade do solo e toma decisões automaticamente:
 - `sketch.ino` → código principal do sistema
 - `relatorio-fase2-irrigacao.pdf` → documentação do projeto
 
+Foto do projeto
+
 
 ![Circuito montado no Wokwi - ESP32, botoes NPK, LDR, DHT22 e 4 reles](PRINT_PROJETO.png)
 
