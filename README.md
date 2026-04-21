@@ -1,25 +1,42 @@
-# Fase 2 - Irrigação Inteligente
+# Fase 2 – Irrigação Inteligente
 
 ## Descrição
-Projeto de irrigação automática utilizando ESP32, com sensores simulados na plataforma Wokwi.
+
+Este projeto simula um sistema de irrigação automática utilizando ESP32, com sensores simulados na plataforma Wokwi.  
+O objetivo é monitorar a umidade do solo e acionar a irrigação de forma automática.
+
+## Objetivo
+
+Automatizar o processo de irrigação com base nos dados coletados pelos sensores, evitando desperdício de água e melhorando a eficiência.
 
 ## Sensores utilizados
-- DHT22 (umidade)
+
+- DHT22 (sensor de umidade)
 - LDR (simulação de pH)
-- Botões (NPK)
+- Botões (controle manual – NPK)
 
 ## Funcionamento
-O sistema monitora a umidade do solo.  
-Quando a umidade está abaixo de 40%, o sistema ativa a irrigação (LED ligado).  
-Quando a umidade está acima de 40%, a irrigação é desligada.
 
-## Código
-O código-fonte do projeto está disponível no arquivo [esboço.ino](esboço.ino).
+O sistema realiza a leitura da umidade do solo e toma decisões automaticamente:
 
-## Circuito
-Imagem do circuito do projeto:
+- Quando a umidade está **abaixo de 40%**, a irrigação é ativada (LED ligado)
+- Quando a umidade está **acima de 40%**, a irrigação é desligada
 
-![Circuito](Captura de Tela 2026-04-19 às 15.39.54.png)
+## Tecnologias utilizadas
 
-## Vídeo do projeto
-https://youtu.be/V_RsebS23Uk
+- ESP32
+- Linguagem C++
+- Plataforma Wokwi (simulação)
+
+## Estrutura do projeto
+
+- `sketch.ino` → código principal do sistema
+- `relatorio-fase2-irrigacao.pdf` → documentação do projeto
+## 🎥 Vídeo do Projeto
+
+👉 [Clique aqui para assistir ao vídeo](https://youtu.be/V_RsebS23Uk)
+
+## Autora
+
+Dani Zullo  
+RM: 571880
